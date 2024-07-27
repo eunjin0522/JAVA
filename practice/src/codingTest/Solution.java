@@ -19,16 +19,16 @@ public class Solution {
     }
 
 
-    public static void main(String[] args) {
-            int number3= numer1 * denom2 + numer2 * denom1; //분자
-            int denom3 = denom1 * denom2; //분모
-
-            for(int i = 1 ; i <= number3 && i <= denom3;i++){ //0으로 나눌 수 없으니 1부터 시작
-                if(number3%i == 0 && denom3%i == 0){
-                    number3  = number3 / i;
-                    denom3 =  denom3 / i;
-                }
-            }
-            int[] answer = {number3,denom3};
-    }
+//    public static void main(String[] args) {
+//            int number3= numer1 * denom2 + numer2 * denom1; //분자
+//            int denom3 = denom1 * denom2; //분모
+//
+//            for(int i = 1 ; i <= number3 && i <= denom3;i++){ //0으로 나눌 수 없으니 1부터 시작
+//                if(number3%i == 0 && denom3%i == 0){
+//                    number3  = number3 / i;
+//                    denom3 =  denom3 / i;
+//                }
+//            }
+//            int[] answer = {number3,denom3};
+//    }
 }
